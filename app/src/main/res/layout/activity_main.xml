@@ -13,7 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/dice_2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/dice_1" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/dice_2"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginEnd="16dp"
