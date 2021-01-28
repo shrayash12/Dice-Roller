@@ -3,18 +3,18 @@
     <rotate
         android:duration="70"
         android:fromDegrees="-10"
-        android:interpolater="@android:anim/constraintInterpolator"
-        android:pivotX="50"
-        android:pivotY="50"
-        android:repeateCount="5"
-        android:repeateMode="reversible"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="5"
+        android:repeatMode="reverse"
         android:toDegrees="10" />
+
     <translate
         android:duration="70"
         android:fromXDelta="-10"
-        android:interpolater="@android:anim/constraintInterpolator"
-        android:repeateCount="5"
-        android:repeateMode="reversible"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:repeatCount="5"
+        android:repeatMode="reverse"
         android:toXDelta="10" />
-
 </set>

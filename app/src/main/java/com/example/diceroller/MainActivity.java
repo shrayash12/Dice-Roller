@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onAnimationEnd(Animation animation) {
                         int value = randomDiceValue();
-                        int res = getResources().getIdentifier("dice_" + value, "drawable", "com.ssaurel.dicer");
+                        int res = getResources().getIdentifier("dice_" + value, "drawable", "com.example.diceroller");
 
                         if (animation == anim1) {
                             image_dice_1.setImageResource(res);
